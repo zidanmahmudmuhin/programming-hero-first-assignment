@@ -31,6 +31,7 @@ nav{
     border: none;
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .btn-Sign:hover {
@@ -58,6 +59,7 @@ nav{
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 152px;
+    cursor: pointer;
 }
 
 .btn-focus:hover {
@@ -99,6 +101,7 @@ main{
     border: none;
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .btn-three:hover{
@@ -268,11 +271,44 @@ main{
     font-size: 16px;
     font-weight: bold;
     width: 117%;
+    cursor: pointer;
 }
 
 .btn-four:hover{
     background-color: red;
 }    
                                    /* part seven */
+footer{
+    box-shadow: 0px 6px 50px 0px rgba(102, 97, 97, 0.305);
+}
                                    
+#footer{
+    /* margin: 104px 455px 103px 454px; */
+    margin-left: 500px;
+    margin-right: 500px;
+    text-align: center;
+}            
 
+footer h1{
+    font-size: 100px;
+    color: #4E47FF;
+    padding-top: 104px;
+    margin-bottom: 8px
+}
+
+footer p{
+    font-size: 20px;
+    color: #8987A1;
+    margin-top: 0px;
+}
+
+.foot{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.foot a{
+    text-decoration: none;
+    padding-bottom: 103px;
+}
